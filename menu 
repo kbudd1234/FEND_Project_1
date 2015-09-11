@@ -1,0 +1,35 @@
+<div class="row">
+        <div class="col-md-12">
+          <nav id="drawer" class="navbar navbar-default">
+            <ul class="nav__list list-inline">
+              <li class="nav__item"><a href="http://www.google.com">News</a></li>
+              <li class="nav__item"><a href="#">Events</a></li>
+              <li class="nav__item"><a href="#">Culture</a></li>
+              <li class="nav__item"><a href="#">Blog</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <a id="menu" class="responsive-menu">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"/>
+          </svg>
+          </a>
+
+          <script>
+      /*
+       * Open the drawer when the menu icon is clicked.
+       */
+      var menu = document.querySelector('#menu');
+      var main = document.querySelector('main');
+      var drawer = document.querySelector('.nav');
+
+      menu.addEventListener('click', function(e) {
+        drawer.classList.toggle('open');
+        e.stopPropagation();
+      });
+      main.addEventListener('click', function() {
+        drawer.classList.remove('open');
+      });
+    </script>

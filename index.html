@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html data-ember-extension="1">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin Budd Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Martel+Sans:200,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+  </head>
+  <body>
+    
+    <div class="container-fluid header-box">
+      
+      <header class="container">
+        <div class="col-xs-6 title-margin">
+          <img src="img/logo.jpg" alt="picture of logo" class="img-responsive img-circle logo-responsive">
+        </div>
+        <div class="col-xs-6 text-right text-uppercase">
+          <h1 class="text-thin title-big title-responsive">Kevin Budd</h1>
+          <h3 class="ninja-responsive">👣 Front-end Ninja</h3>
+        </div>
+      </header>
+
+      <div class="navbar navbar-default" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav nav-margin">
+              <li><a href="#">Home</a></li>       
+              <li><a href="#thepark">The Park</a></li>
+              <li><a href="#momandme">Mom and Me</a></li>
+              <li><a href="#bikehelmet">Bike Helmet</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <img src="img/chicken.jpg" alt="picture of chickens" class="img-responsive center-block">
+        </div>
+      </div>
+
+      <article class="row">
+        <div class="col-md-12 text-muted">
+          <h2 class="responsive-center">Featured Work</h2>
+        </div>
+      </article>
+
+      <article class="row text-center center-block image-borders">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <img src="img/park.jpg" alt ="a park" class="img-responsive center-block" 
+               data-toggle="modal" data-target="#parkmodal">
+          <h3 id="thepark">The Park</h3>
+          <p><a href="http://github.com/">Link to Park</a></p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <img src="img/reflection.jpg" alt="sunglasses reflecting" class="img-responsive center-block"
+              data-toggle="modal" data-target="#momandmemodal">
+          <h3 id="momandme">Mom and Me</h3>
+          <p><a href="http://github.com/">Link to Mom and Me</a></p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <img src="img/bikehelmet.jpg" alt="baby in bike helmet" class="img-responsive center-block"
+               data-toggle="modal" data-target="#bikehelmetmodal">
+          <h3 id="bikehelmet">Bike Helmet</h3>
+          <p><a href="http://github.com/">Link to Bike Helmet</a></p>
+        </div>
+      </article>
+
+    </div>
+
+    <section>
+
+    <footer class="container">
+      <div class="row">
+        <p class="text-center">Copyright © 2015 KEVIN BUDD All Rights Reserved</p>
+      </div>
+    </footer>
+
+        <!-- Modal -->
+    <div class="modal fade text-center" id="parkmodal" tabindex="-1" 
+         role="dialog" aria-labelledby="parkModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-park" id="parkModalLabel">The Park</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive center-block" src="img/park.jpg" alt="at the park">
+            This was Ever at the park in the summer.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+        <!-- Modal -->
+    <div class="modal fade text-center" id="momandmemodal" tabindex="-1" 
+         role="dialog" aria-labelledby="momandmeModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-momandme" id="momandmeModalLabel">Mom and Me</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive center-block" src="img/reflection.jpg" alt="reflection in glasses">
+            This was Mom and Ever visiting the farm.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <!-- Modal -->
+    <div class="modal fade text-center" id="bikehelmetmodal" tabindex="-1" 
+         role="dialog" aria-labelledby="bikehelmetModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-bikehelmet" id="bikehelmetModalLabel">Bike Helmet</h4> 
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive center-block" src="img/bikehelmet.jpg" alt="baby in bike helmet">
+            This was Ever on the couch with cousin Madelyn wearing a red bike helmet.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  
+</body>
+</html>

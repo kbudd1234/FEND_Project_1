@@ -1,0 +1,44 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 500px) {
+
+
+  .logo-responsive {
+    height: 48px;
+    margin-right: 0.5em;
+  }
+  .title-responsive {
+    margin-left: 0;
+    margin-bottom: 0;
+    font-size: 24px;
+    vertical-align: bottom;
+   }
+   .ninja-responsive {
+    margin-left: 0;
+    margin-top: 0;
+    font-size: 16px;
+    vertical-align: bottom;
+   }
+  .responsive-center {
+    text-align: center;
+    font-size: 24px;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+
