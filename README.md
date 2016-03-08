@@ -1,6 +1,7 @@
 # FEND_Project_1-Portfolio
 
-author: Kevin Budd
-09/11/15
+This is a porfolio page representing some of my work in Udacity's Front End Nanodegree. You will see the page is styled with the help
+of the Bootstrap CSS framework. Just a smidge of Javascript to bring in a map from the Google Maps API. 
 
-HTML/CSS with Bootstrap Portfolio to represent my work for Udacity Front End Developer Nanodegree
+Usage:
+No special instructions. please enjoy.
