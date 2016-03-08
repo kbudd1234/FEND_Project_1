@@ -5,3 +5,5 @@ of the Bootstrap CSS framework. Just a smidge of Javascript to bring in a map fr
 
 Usage:
 No special instructions. please enjoy.
+
+This project is licensed under the terms of the MIT license.
